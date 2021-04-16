@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Menu from "./components/Menu";
 import Game from "./components/Game";
 import PlayersProvider from "./providers/Players";
@@ -22,6 +22,7 @@ const Routing = () => {
                                     <Route exact path="/camel-up">
                                         <Game />
                                     </Route>
+                                    <Redirect to="/" />
                                 </Switch>
                             </LegBetsProvider>
                         </DiceProvider>

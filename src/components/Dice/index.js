@@ -1,6 +1,6 @@
 import { useDice } from "../../providers/Dice/hooks";
 import Die from "./Die";
-import "./style.css";
+import "./dice.css";
 
 const Dice = () => {
     const [dice, setDice] = useDice();

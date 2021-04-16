@@ -1,0 +1,30 @@
+.die {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 0.5px solid gray;
+  text-align: center;
+  font-size: 30px;
+}
+
+.die-red {
+  background: red;
+}
+
+.die-green {
+  background: green;
+}
+
+.die-blue {
+  background: blue;
+}
+
+.die-yellow {
+  background: yellow;
+}
+
+.dice {
+  margin-top: 20px;
+  display: flex;
+  padding: 5px;
+}

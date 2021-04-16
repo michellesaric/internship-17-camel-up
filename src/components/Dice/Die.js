@@ -1,4 +1,4 @@
-import "./style.css";
+import "./dice.css";
 
 const Die = ({color, value}) => {
     return (

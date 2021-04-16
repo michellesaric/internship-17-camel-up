@@ -1,4 +1,4 @@
-import "./style.css";
+import "./camelChoice.css";
 
 const CamelChoice = ({camelBets, getUserBet}) => {
     return (

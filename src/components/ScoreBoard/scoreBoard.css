@@ -1,0 +1,17 @@
+.score-board {
+  margin-bottom: 15px;
+  font-family: monospace;
+  font-size: 20px;
+  display: flex;
+  color: darkslategray;
+  justify-content: space-around;
+}
+
+.score-board-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-board-container span {
+  margin-right: 10px;
+}
