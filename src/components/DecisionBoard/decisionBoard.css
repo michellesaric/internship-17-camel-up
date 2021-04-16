@@ -1,0 +1,31 @@
+.decision-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container-button {
+  background: url("../../assets/marble-background.jpg");
+  margin-top: 15px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: monospace;
+  border-radius: 10px;
+  border: 0.5px solid lightgray;
+  outline: none;
+  padding: 10px 0px;
+}
+
+.button-container-button:hover {
+  transform: scale(1.1);
+}
+
+.button-container-button:active {
+  transform: translateY(10px);
+}

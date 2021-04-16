@@ -1,0 +1,45 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-gap: 10px;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 4px solid black;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.camel {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    border: 2px solid black;
+    animation: getIn 0.5s;
+}
+
+@keyframes getIn {
+    from {
+        opacity: 0
+    }
+}
+
+.camel-red {
+    background: red;
+}
+
+.camel-green {
+    background: green;
+}
+
+.camel-blue {
+    background: blue;
+}
+
+.camel-yellow {
+    background: yellow;
+}
